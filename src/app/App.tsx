@@ -1,3 +1,9 @@
+import { Logo } from '@/widgets/ui';
+
 export const App = () => {
-  return <div className="bg-green-400">hello</div>
-}
+  return (
+    <main className="max-w-7xl mx-auto pt-20">
+      <Logo />
+    </main>
+  );
+};
